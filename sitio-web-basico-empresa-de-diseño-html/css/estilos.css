@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #0b2058;
+	font-family: verdana;
+}
+
+.contenedor{
+	background: #fff;
+	width: 1200px;
+	margin: 10px auto;
+
+}
+
+.superior{
+	padding: 10px 0;
+}
+
+/* estilos para el menu opciones */
+
+.opciones{
+	overflow: hidden;
+	background: #1653c6;
+}
+
+.opciones li{
+	float: left;
+	list-style: none;
+}
+
+.opciones li a{
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+
+.opciones li a:hover{
+background: #36cebf;
+color: #242526;
+}
+
+/* estilos para el bloque medio */
+.medio{
+	padding: 15px 0;
+}
+.titulo{
+	text-align: center;
+	color: #014e01;
+}
+.frase{
+	text-align: center;
+	padding: 10px 200px;
+	font-style: italic;
+	color: #051e2b;
+}
+/* estilos para las cajas */
+.servicio{
+	width: 380px;
+
+}
+
+.servicio:hover{
+	transform: rotate(360deg);
+	transition: all 1s;
+}
+
+.caja{
+	overflow: hidden;
+}
+
+.izquierda, .centro, .derecha{
+float: left;
+margin: 10px;
+width: 380px;
+}
+
+.subtitulo{
+	text-align: center;
+	padding: 12px 0;
+}
+
+/* estilos para el pie de pagina */
+.pie{
+	background: #071238;
+	padding: 14px 0;
+}
+
+.derechos{
+	color: white;
+	padding: 0 0 0 30px;
+	font-size: 12px;
+	font-style: italic;
+
+}
