@@ -72,7 +72,7 @@ color: #242526;
 	overflow: hidden;
 }
 
-.izquierda, .centro, .derecha{
+.izquierda,.centro,.derecha{
 float: left;
 margin: 10px;
 width: 380px;
